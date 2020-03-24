@@ -1,7 +1,39 @@
 body,
 html {
+  font-family: Open Sans;
+  font-size: 14px;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+  color: #909eb0;
+  background-color: #384764;
+}
+
+.sidenav {
+  width: 20%;
+}
+.sidenav .sidenav_profile {
+  text-align: center;
+}
+.sidenav .sidenav_profile > li {
+  overflow: hidden;
+  text-align: center;
+  align-content: center;
+}
+.sidenav .sidenav_profile > img {
+  border-radius: 50%;
+}
+.sidenav .sidenav_categories > li {
+  padding: 17px 40px 17px 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.sidenav .sidenav_categories > li:hover {
+  background-color: #242e42;
+  color: #1f8efa;
+  border-radius: 8px;
+}
+.sidenav .sidenav_categories > li i {
+  padding-right: 20px;
 }
