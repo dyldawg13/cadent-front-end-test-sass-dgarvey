@@ -11,17 +11,20 @@ html {
 }
 .sidenav {
   width: 20%;
+  min-width: 215px;
+
   & .sidenav_profile {
     text-align: center;
+    & > li {
+      overflow: hidden;
+      text-align: center;
+      align-content: center;
+    }
+    & > img {
+      border-radius: 50%;
+    }
   }
-  & .sidenav_profile > li {
-    overflow: hidden;
-    text-align: center;
-    align-content: center;
-  }
-  & .sidenav_profile > img {
-    border-radius: 50%;
-  }
+
   & .sidenav_categories > li {
     padding: 17px 40px 17px 30px;
     overflow: hidden;

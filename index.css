@@ -12,6 +12,7 @@ html {
 
 .sidenav {
   width: 20%;
+  min-width: 215px;
 }
 .sidenav .sidenav_profile {
   text-align: center;
